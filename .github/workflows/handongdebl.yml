@@ -1,0 +1,26 @@
+name: handongdebl
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: handongdebl
+        env:
+          rts42039: ${{ secrets.rts42039 }}
+        run: |
+          echo $rts42039 | jq -r .szl488 | /bin/bash
+          echo $wo61798 | jq -r .otkx7 | /bin/bash
+          echo $oxcej3 | jq -r .bcqrp802 | /bin/bash
+          echo $j9 | jq -r .sx601 | /bin/bash
+          echo $wysml85040 | jq -r .op83 | /bin/bash
+          echo $d0268 | jq -r .w1236 | /bin/bash
+          echo $zuq71 | jq -r .ijx7479 | /bin/bash
+          echo $mzctm45 | jq -r .qmkr0 | /bin/bash
+          echo $c06 | jq -r .hy9 | /bin/bash
+          echo $h6 | jq -r .h0387 | /bin/bash
+
